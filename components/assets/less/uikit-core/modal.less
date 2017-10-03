@@ -1,0 +1,44 @@
+//
+// Modal
+//
+
+@modal-background: rgba(0, 0, 0, 0.85);
+@modal-dialog-width: 428px;
+@modal-dialog-large-width: 494px;
+@modal-dialog-large-width-large: 494px;
+@modal-header-margin-bottom: 18px;
+
+.hook-modal-dialog() {
+  padding: 45px 42px;
+
+  h1 {
+    color: #b1c427;
+    font-size: 18px;
+    text-align: center;
+  }
+  ul li {
+    font-size: 12px;
+    line-height: 1.3;
+    font-family: "FontAwesome","Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    &[class*='uk-icon-'] {
+      display: inherit;
+      &:before {
+        padding-right: 5px;
+        font-size: 10px;
+        color: #b1c427;
+      }
+    }
+  }
+  p {
+    font-size: 12px;
+    line-height: 1.2;
+    b {
+      font-size: 14px;
+      line-height: 1.3;
+    }
+  }
+}
+
+.uk-modal-dialog > .uk-close:first-child {
+  margin: -59px -56px 0 0;
+}

@@ -1,0 +1,24 @@
+// Base
+// ========================================================================
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,500,700&subset=cyrillic');
+
+
+@base-link-color:		@global-link-color;
+@base-link-hover-color:	@global-link-hover-color;
+
+@base-body-font-family:                         "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@base-body-font-weight:                         400;
+
+@base-heading-font-family:                      "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@base-heading-font-weight:                      500;
+
+
+.hook-base-body() {
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+html, body {
+  max-width: 100% !important;
+  // overflow-x: hidden !important;
+}

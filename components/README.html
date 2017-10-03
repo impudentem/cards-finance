@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1 id="uikitthemingmaterial">UIkit theming (material)</h1>
+
+<p>I don&#8217;t like how you need to use Gulp to customize <a href="https://github.com/uikit/uikit">UIkit</a> LESS so I arrived to the conlcusion that the method proposed below is the best method to compile less and keep peace of mind being able to update to the latest versions.</p>
+
+<h3 id="steps">Steps</h3>
+
+<ol>
+<li>bower install</li>
+<li>create a folder with your project assets</li>
+<li>add the customizations you need to asstes/less/uikit-core folder</li>
+<li>you have to create all components separately and import it&#8217;s parent first in order to compile them, you can add your customizations if needed</li>
+<li>done, now you can complie uikit.less and uikit components with your favorite method, and also you can update using bower without lossing your customizations</li>
+</ol>
+
+<h3 id="notes">NOTES</h3>
+
+<p>You will see in assets/less/uikit-components/notify.leess I had to define a variable. I think it&#8217;s a bug of the version 2.21.0</p>
+
+<p>I arrived to the conclusion that customizinf from a UIkit theme, like almost-flat, is a nightmare because it seems they are not updated in every release</p>
+
+<hr />
+
+<p>Hope this helps someone UIkit is a great FW but has a lack of tutorials and better documentation.</p>
+
+</body>
+</html>

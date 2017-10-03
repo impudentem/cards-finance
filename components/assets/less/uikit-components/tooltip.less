@@ -1,0 +1,26 @@
+@import "../../../vendor/uikit/less/components/tooltip.less";
+
+// @tooltip-z-index:                               1030;
+@tooltip-max-width:                             200px;
+@tooltip-padding-vertical:                      10px;
+@tooltip-padding-horizontal:                    17px;
+@tooltip-background:                            #eeeeee;
+@tooltip-triangle-size:                         11px;
+
+@tooltip-color:                                 #717171;
+@tooltip-font-size:                             12px;
+@tooltip-line-height:                           12px;
+
+@tooltip-offset-horizontal:                     22px;
+
+.hook-tooltip() {
+  &.tooltip-phone {
+    background-color: #eeeeee;
+    color: #717171;
+  }
+}
+.hook-tooltip-misc() {
+  .uk-tooltip-bottom-right:after {
+    border-right-width: 0px;
+  }
+}
