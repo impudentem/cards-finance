@@ -1,5 +1,5 @@
 {
-  "name": "finline",
+  "name": "finance",
   "authors": [
     "Aleksandr Goncharenko <impudentem@gmail.com>"
   ],
@@ -11,8 +11,6 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
   ],
   "dependencies": {
     "angular-uikit": "*"
